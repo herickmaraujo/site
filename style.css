@@ -1,0 +1,83 @@
+:root {
+    --navy: #071C2C;
+    --ocean: #0B6E8E;
+    --turquoise: #21B6B7;
+    --off-white: #F5F7F4;
+    --white: #FFFFFF;
+    --sand: #D9C7A5;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+    body {
+    font-family: "DM Sans", sans-serif;
+}
+
+h1, h2, h3, .logo, button {
+    font-family: "Montserrat", sans-serif;
+    color: var(--off-white);
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    color: var(--navy);
+}
+
+header {
+    background-color: var(--off-white);
+    height: 80px;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--off-white);
+    height: 80px;
+}
+
+.logo {
+    margin-left: 10%;
+}
+
+.navbar{
+        margin-right: 10%;
+}
+
+main {
+    background-color: var(--ocean);
+    height: 80%;
+}
+
+.cards {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.title {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.title h3 {
+    color: var(--turquoise);
+}
+
+.card-body{
+    margin-top: 15px;
+    background-color: var(--ocean);
+}
+
+footer {
+    background-color: var(--sand);
+    height: 40px;
+}
