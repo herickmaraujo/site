@@ -24,7 +24,7 @@ h1, h2, h3, .logo, button {
 
 p {
     font-family: "Montserrat", sans-serif;
-    color: var(--navy);
+    color: var(--ocean);
 }
 
 body {
@@ -53,7 +53,7 @@ header {
 }
 
 main {
-    background-color: var(--ocean);
+    background-color: var(--navy);
     height: 80%;
 }
 
@@ -62,9 +62,16 @@ main {
     color: var(--turquoise);
 }
 
-.card-body{
-    margin-top: 15px;
-    background-color: var(--ocean);
+.card {
+    background-color: var(--navy);
+}
+
+.card-title {
+    color: var(--off-white);
+}
+
+.text-body-secondary {
+    color: var(--off-white);
 }
 
 footer {
