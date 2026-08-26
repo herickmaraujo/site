@@ -31,6 +31,12 @@ body {
     width: 100vw;
 }
 
+.whatsappButton {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
 header {
     background-color: var(--off-white);
 }
@@ -76,5 +82,28 @@ main {
 
 footer {
     background-color: var(--sand);
-    height: 40px;
+}
+
+footer .mx-auto{
+    display: flex;
+    justify-content: center;
+}
+
+footer .card{
+    background-color: var(--sand);
+}
+
+footer p{
+    color: black;
+}
+
+.list-group-item {
+    background-color: var(--sand);
+    border: 0;
+    right: 30%;
+}
+
+.icons {
+    width: 30px;
+    height: 30px;
 }

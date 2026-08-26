@@ -9,140 +9,211 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="nav navbar-expand-sm fixed-top">
-            <a href="#" class="logo navbar-brand mb-0 h1">
-                <img src="images/logo.png" class="d-inline-block align-top" alt="Logo" width="90px">
-            </a>
-            <nav class="navbar navbar-expand-lg">
-           <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
+  <header>
+    <div class="nav navbar-expand-sm fixed-top">
+      <a href="#" class="logo navbar-brand mb-0 h1">
+        <img src="images/logo.png" class="d-inline-block align-top" alt="Logo" width="90px">
+      </a>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">INICIO</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">AULAS</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">SOBRE</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">CONTATO</a>
-                </li>
-              </ul>
-            </div>
-           </div>
-          </nav>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#why-ocean">SOBRE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#carousel-instructors">AULAS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">CONTATO</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </header>
-    <main>
-        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="4000">
-              <img src="images/surf01.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item"  data-bs-interval="2000">
-              <img src="images/surf02.jpg" class="d-block w-100" alt="...">
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="carousel-surf">
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="4000">
+            <img src="images/surf01.jpg" class="d-block w-100" alt="mulher surfando">
+          </div>
+          <div class="carousel-item"  data-bs-interval="2000">
+            <img src="images/surf02.jpg" class="d-block w-100" alt="homem surfando">
           </div>
           <div class="carousel-item">
-            <img src="images/surf03.jpg" class="d-block w-100" alt="...">
-          </div>
+            <img src="images/surf03.jpg" class="d-block w-100" alt="homem surfando">
           </div>
         </div>
-        <div class="title mt-3 ms-4">
-          <h2>ENCONTRE SUA ONDA</h2>
-        </div>
-        <div class="d-flex flex-column flex-md-row justify-content-evenly ms-md-3 me-md-3 row-gap-3 ">
-          <div class="card1 p-3" style="width: 100vw;">
-            <img src="images/card01.jpg" class="card-img-top"  alt="...">
-            <div class="card-body" style="margin-top: 15px;">
+      </div>
+    </section>
+    <section id="levels">
+      <div class="title mt-3 ms-4">
+        <h2>ENCONTRE SUA ONDA</h2>
+      </div>
+      <div class="d-flex flex-column flex-md-row justify-content-evenly ms-md-3 me-md-3 row-gap-3 ">
+        <div class="card1 p-3" style="width: 100vw;">
+          <img src="images/card01.jpg" class="card-img-top"  alt="homem surfando">
+          <div class="card-body" style="margin-top: 15px;">
             <h3>INICIANTE</h3>
             <p class="card-text">Aprenda os fundamentos, técnicas básicas e como pegar suas primeiras ondas com segurança e acompanhamento de instrutores experientes.</p>
-            </div>
           </div>
+        </div>
         <div class="card2 p-3" style="width: 100vw" >
-          <img src="images/card02.jpg" class="card-img-top"  alt="...">
+          <img src="images/card02.jpg" class="card-img-top"  alt="homem surfando">
           <div class="card-body" style="margin-top: 15px;">
-          <h3>INTERMEDIÁRIO</h3>
-          <p class="card-text">Aperfeiçoe sua técnica, melhore suas manobras e aprenda a aproveitar diferentes tipos de ondas com a orientação de nossos instrutores.</p>
+            <h3>INTERMEDIÁRIO</h3>
+            <p class="card-text">Aperfeiçoe sua técnica, melhore suas manobras e aprenda a aproveitar diferentes tipos de ondas com a orientação de nossos instrutores.</p>
           </div>
         </div>
         <div class="card3 p-3"style="width: 100vw" >
-         <img src="images/card03.jpg" class="card-img-top"  alt="...">
-         <div class="card-body" style="margin-top: 15px;">
-          <h3>AVANÇADO</h3>
-          <p class="card-text">Aprimore suas manobras, performance e leitura de ondas, com treinos focados em técnica e evolução para surfistas experientes.</p>
-         </div>
+          <img src="images/card03.jpg" class="card-img-top"  alt="homem surfando">
+           <div class="card-body" style="margin-top: 15px;">
+             <h3>AVANÇADO</h3>
+             <p class="card-text">Aprimore suas manobras, performance e leitura de ondas, com treinos focados em técnica e evolução para surfistas experientes.</p>
+            </div>
+          </div>
         </div>
+    </section>
+      <section id="why-ocean" class="mt-4">
+        <h1 class="text-center">Por que a OCEAN?</h1>
+        <p class="text-center">Mais do que aulas de surf, oferecemos uma experiência completa para você evoluir dentro e fora d'água.</p>
+        <div class="card-group">
+          <div class="card border-0">
+            <img src="images/surf_icon.PNG" class="card-img-top" alt="homem surfando">
+            <div class="card-body">
+              <h5 class="card-title text-center">Instrutores Experientes</h5>
+              <p class="card-text text-center">Profissionais apaixonados pelo surf e dedicados ao seu desenvolvimento de forma segura e eficiente.</p>
+            </div>
+          </div>
+          <div class="card border-0">
+            <img src="images/prancha_icon.PNG" class="card-img-top" alt="prancha">
+            <div class="card-body">
+              <h5 class="card-title">Equipamentos de Qualidade</h5>
+              <p class="card-text">Utilizamos os melhores equipamentos para garantir conforto, segurança e a melhor experiência.</p>
+            </div>
+          </div>
+          <div class="card border-0">
+            <img src="images/praia_icon.PNG" class="card-img-top" alt="praia">
+            <div class="card-body">
+              <h5 class="card-title">Melhores Locais</h5>
+              <p class="card-text">Aulas nos melhores picos da região, com condições ideais para todos os níveis de surfistas.</p>
+            </div>
+          </div>
+          <div class="card border-0">
+            <img src="images/comunidade_icon.PNG" class="card-img-top" alt="comunidade">
+            <div class="card-body">
+              <h5 class="card-title">Turmas Reduzidas</h5>
+              <p class="card-text">Mais atenção, correções personalizadas e evolução real em um ambiente acolhedor.</p>
+            </div>
+          </div>
+          <div class="card border-0">
+            <img src="images/heart_icon.PNG" class="card-img-top" alt="coração">
+            <div class="card-body">
+              <h5 class="card-title">Paixão pelo que Fazemos</h5>
+              <p class="card-text">Vivemos o surf todos os dias e transmitimos essa energia em cada aula, dentro e fora d'água.</p>
+            </div>
+          </div>
         </div>
+      </section>
+      <section id="carousel-instructors">
         <div id="carouselInstrutor" class="carousel slide">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="card mb-3" style="max-width: 1080px; margin: 10px auto; border: 0ch;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                   <img src="images/lucas_almeida_surf_instructor.png" class="card-img img-fluid rounded-start" alt="Lucas Almeida">
-                 </div>
-                  <div class="col-md-8">
-                   <div class="card-body">
-                     <h5 class="card-title ">Lucas Almeida</h5>
-                     <p class="card-text"><small>Instrutor de Iniciantes</small></p>
-                     <p class="card-text p-2">Surfista há mais de 8 anos, Lucas é especialista em ensinar os primeiros passos no surf, priorizando segurança, confiança e diversão dentro d'água.</p>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card mb-3" style="max-width: 1080px; margin: 10px auto; border: 0ch;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/lucas_almeida_surf_instructor.png" class="card-img img-fluid rounded-start" alt="Lucas Almeida">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title ">Lucas Almeida</h5>
+                        <p class="card-text"><small>Instrutor de Iniciantes</small></p>
+                        <p class="card-text p-2">Surfista há mais de 8 anos, Lucas é especialista em ensinar os primeiros passos no surf, priorizando segurança, confiança e diversão dentro d'água.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card mb-3" style="max-width: 1080px; margin: 10px auto; border: 0ch;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/rafael_martins_surf_instructor.png" class="card-img img-fluid rounded-start" alt="Rafael Martins">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title ">Rafael Martins</h5>
+                        <p class="card-text"><small>Instrutor Intermediário</small></p>
+                        <p class="card-text p-2">Com ampla experiência em diferentes condições de mar, Rafael ajuda alunos intermediários a aperfeiçoar sua técnica, leitura de ondas e execução de manobras.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card mb-3" style="max-width: 1080px; margin: 10px auto; border: 0ch;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/gabriel_costa_surf_instructor.jpg" class="card-img img-fluid rounded-start" alt="Gabriel Costa">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title ">Gabriel Costa</h5>
+                        <p class="card-text"><small>Instrutor Avançado</small></p>
+                        <p class="card-text p-2">Surfista de alto nível e apaixonado por performance, Gabriel trabalha técnicas avançadas, posicionamento e manobras para quem busca elevar seu surf ao máximo.</p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-         <div class="carousel-item">
-          <div class="card mb-3" style="max-width: 1080px; margin: 10px auto; border: 0ch;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="images/rafael_martins_surf_instructor.png" class="card-img img-fluid rounded-start" alt="Rafael Martins">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title ">Rafael Martins</h5>
-                  <p class="card-text"><small>Instrutor Intermediário</small></p>
-                  <p class="card-text p-2">Com ampla experiência em diferentes condições de mar, Rafael ajuda alunos intermediários a aperfeiçoar sua técnica, leitura de ondas e execução de manobras.</p>
-                </div>
-              </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselInstrutor" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselInstrutor" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Próximo</span>
+            </button>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="mx-auto" id="contato">
+          <div class="card border-0" style="width: 18rem;" >
+            <img src="images/logo.png" alt="logo" class="img-fluid card-img-top">
+          </div>
+          <div class="card border-0">
+            <div class="card-body">
+              <h5 class="card-title">CONTATO</h5>
+              <p class="card-text">info@ocean.com</p>
+              <p class="card-text">+55 (85)93723-9009</p>
+              <p class="card-text">Praia do Futuro</p>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div class="card-body">
+              <h5 class="card-title">REDES SOCIAIS</h5>
+              <a href="#"><img src="images/instagram_icon.png" alt="Ícone do Instagram" class="icons"></a>
+              <a href="#"><img src="images/tiktok_icon.png" alt="Ícone do TikTok" class="icons"></a>
+              <a href="#"><img src="images/x_icon.png" alt="Ícone do X" class="icons"></a>
+              <a href="#"><img src="images/youtube_icon.png" alt="Ícone do Youtube" class="icons"></a>
             </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <div class="card mb-3" style="max-width: 1080px; margin: 10px auto; border: 0ch;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="images/gabriel_costa_surf_instructor.jpg" class="card-img img-fluid rounded-start" alt="Gabriel Costa">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title ">Gabriel Costa</h5>
-                  <p class="card-text"><small>Instrutor Avançado</small></p>
-                  <p class="card-text p-2">Surfista de alto nível e apaixonado por performance, Gabriel trabalha técnicas avançadas, posicionamento e manobras para quem busca elevar seu surf ao máximo.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselInstrutor" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Anterior</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselInstrutor" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Próximo</span>
-      </button>
-      </div>
-    </main>
-    <footer>
-        
-    </footer>
-</body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</html>
+      </footer>
+      <a href="#" class="whatsappButton">
+        <img src="images/whatsapp_icon.jpg" alt="whatsapp_icon" style="width: 80px; height: 80px; border-radius: 50%;">
+      </a>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </html>
